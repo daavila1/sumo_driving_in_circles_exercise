@@ -1,4 +1,9 @@
 <routes>
-    <vType id="car1" type="passenger" lenght="5" accel="3.5" decel="2.2" sigma="1.0" />
-    <flow id="carflow" type="car1" beg="0" end="0" number="5" from="E7" to="E3" />
+    <!-- Vehicles Instances -->
+    <vType id="car_0" type="passenger" lenght="5" accel="3.5" decel="2.2" sigma="1.0" color="1,0,0"/>
+    <vType id="car_1" type="passenger" lenght="5" accel="5.5" decel="2.2" sigma="1.0" color="0,1,0"/>
+    <!-- First flow def: car_0 -->
+    <flow id="carflow_0" type="car_0" beg="0" end="0" number="5" from="E7" to="E3" />
+    <!-- Second flow def: car_1 -->
+    <flow id="carflow_1" type="car_1" beg="0" end="0" number="5" from="E7" to="E3" />
 </routes>

@@ -1,0 +1,12 @@
+<additionals>
+    <rerouter id="rerouter_0" edges="E7">
+        <interval end="1e9">
+            <destProbReroute id="E3" probability="1.00">
+        </interval>
+    </rerouter>
+    <rerouter id="rerouter_1" edges="E3">
+        <interval end="1e9">
+            <destProbReroute id="E7" probability="1.00">
+        </interval>
+    </rerouter>
+</additionals>
